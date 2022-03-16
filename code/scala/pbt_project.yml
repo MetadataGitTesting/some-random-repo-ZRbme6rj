@@ -25,6 +25,17 @@ workflows:
       inputs: []
       outputs: []
     dependencies: {}
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: marco.farrell@hotmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-03-16 17:36:47'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
   workflows/Rueben_Schneider:
     name: Rueben_Schneider
     description: ''
@@ -81,6 +92,11 @@ workflows:
       outputs: []
     dependencies: {}
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Miss_Chester_Bergnaum:
+    name: Miss_Chester_Bergnaum
+    description: Really solid info
+    createdAt: '2022-03-16 17:36:47'
+    author: marco.farrell@hotmail.com
 libraries: []
 dependencies: ''
